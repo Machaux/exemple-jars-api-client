@@ -15,11 +15,11 @@ public class ListerEmployesAction implements Action {
 	}
 
 	public String getMenu() {
-		return "Lister les employÃ©s";
+		return "Lister les employés";
 	}
 
 	public void execute() {
-		System.out.println("Liste des employÃ©s");
+		System.out.println("Liste des employés");
 		
 		try {
 			
@@ -29,7 +29,7 @@ public class ListerEmployesAction implements Action {
 				System.out.println(employe);
 			});
 		} catch (WebApplicationException e) {
-			System.out.println("Impossible de rÃ©cupÃ©rer les employes");
+			System.out.println("Impossible de récupérer les employés");
 		}
 		
 		
