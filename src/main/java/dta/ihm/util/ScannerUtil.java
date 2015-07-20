@@ -22,5 +22,10 @@ public class ScannerUtil {
 		System.out.println(message);
 		return scanner.nextInt();
 	}
+	
+	public String askUserString(String message) {
+		System.out.println(message);
+		return scanner.next();
+	}
 
 }

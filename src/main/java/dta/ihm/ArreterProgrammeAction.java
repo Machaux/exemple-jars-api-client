@@ -9,11 +9,11 @@ public class ArreterProgrammeAction implements Action {
 	}
 
 	public String getMenu() {
-		return "ArrÃªter le programme";
+		return "Arrêter le programme";
 	}
 
 	public void execute() {
-		System.out.println("Aurevoir !");
+		System.out.println("Au revoir !");
 		ScannerUtil.getInstance().close();
 		System.exit(0);
 	}
